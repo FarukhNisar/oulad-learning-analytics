@@ -1,4 +1,3 @@
-
 # Early Prediction of At-Risk Students Using Learning Analytics
 
 ## 1. Introduction
@@ -64,3 +63,26 @@ highest Random Forest feature importance (approximately
 These results are preliminary and should be interpreted
 with consideration of the models' moderate predictive
 performance and the overlap between activity features.
+
+## Limitations and Future Work
+
+The predictive performance of the models was moderate.
+The five-feature Random Forest achieved 65.32% accuracy
+and a 67.01% F1-score in this experiment.
+
+Some features overlap because clicks during weeks 1-2
+and weeks 3-4 contribute to total early clicks. Future work
+should investigate feature redundancy and compare the models
+against simple baseline classifiers.
+
+Further evaluation should examine cross-validation,
+class-specific performance, and generalization to other
+courses or student cohorts.
+
+Feature importance describes how the fitted model uses
+the features; it does not establish causation.
+
+
+
+
+
