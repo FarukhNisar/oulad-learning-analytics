@@ -82,6 +82,24 @@ courses or student cohorts.
 Feature importance describes how the fitted model uses
 the features; it does not establish causation.
 
+## Baseline Comparison
+
+A majority-class DummyClassifier was used as a simple baseline.
+
+| Model | Accuracy | F1-score (At Risk class) |
+|---|---:|---:|
+| Majority-class Baseline | 52.80% | 69.11% |
+| Random Forest | 65.32% | 67.01% |
+
+The Random Forest improved accuracy by 12.52 percentage points
+compared with the baseline. However, the baseline achieved a
+higher F1-score for the At Risk class because it predicted every
+student as at risk, achieving 100% recall but generating many
+false positives.
+
+Therefore, Random Forest provides a more useful balance for
+identifying at-risk students in this experiment, although further
+validation is needed before practical deployment.
 
 
 
