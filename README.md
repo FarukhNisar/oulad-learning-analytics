@@ -53,3 +53,6 @@ baseline comparisons, and careful evaluation are needed.
 
 ## Research Report
 See `OULAD_Research_Report.md` for the initial research report.
+## Model Performance Comparison
+
+![Model Comparison Chart](model_comparison.png)
